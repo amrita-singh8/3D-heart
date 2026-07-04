@@ -62,7 +62,7 @@ function draw(){
         let pulse=18+Math.sin(t*2+a*5)*2;
 
         let x=p.x*pulse;
-        let y=-p.y*pulse;
+        let  y=-p.y*pulse;
 
         ctx.beginPath();
         ctx.fillStyle=`hsl(${330+40*Math.sin(a+t)},100%,65%)`;
